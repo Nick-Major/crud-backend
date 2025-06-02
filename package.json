@@ -1,0 +1,28 @@
+{
+  "name": "crud-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Nick-Major/crud-backend.git",
+  "author": "Nick-Major <divanchik26@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "path-to-regexp": "6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "resolutions": {
+    "path-to-regexp": "6.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
